@@ -27,7 +27,7 @@ export default function HistoryChart ({
         data={activities.map(a => { a.date = moment(a.startTime).format('M/D/YY'); return a })}
         width={600}
         height={300}
-        margin={{top: 0, right: 0, left: -10, bottom: 0}}
+        margin={{ top: 0, right: 0, left: -10, bottom: 0 }}
       >
         <XAxis dataKey="startTime" tickFormatter={v => moment(v).format('M/D')} />
         <YAxis domain={[Math.min(minDistance, minPace), Math.max(maxDistance, maxPace)]} label={{ value: 'MPH', angle: -90, position: 'center', y: 100 }} />

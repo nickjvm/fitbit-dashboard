@@ -1,4 +1,5 @@
 # Fitbit Runner's Dashboard
+[![CircleCI](https://circleci.com/gh/nickjvm/fitbit-dashboard/tree/develop.svg?style=svg)](https://circleci.com/gh/nickjvm/fitbit-dashboard/tree/develop)
 View your Fitbit health and running activity history based on a selected date range
 ![Screenshot](static/images/screenshot-lg.png)
 This has been tested with data logged using a Fitbit Charge 2. Other devices may or may not work depending on the data collected. PRs are welcomed if you notice an issue with your device!
